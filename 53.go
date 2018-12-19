@@ -20,7 +20,6 @@ func maxSubArray(nums []int) int {
 			sum[i] = nums[i] + sum[i-1]
 		}
 
-
 		if sum[i] > max {
 			max = sum[i]
 		}
@@ -30,7 +29,7 @@ func maxSubArray(nums []int) int {
 }
 
 func main() {
-	fmt.Println(maxSubArray([]int{-2,0, -1}))
+	fmt.Println(maxSubArray([]int{-2, 0, -1}))
 }
 
 //-2, 1, -3, 4, -1, 2, 1, -5, -4
