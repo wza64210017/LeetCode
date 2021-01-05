@@ -13,29 +13,27 @@ var data = map[string]string{
 }
 
 func translateNum(num int) int {
-	//m := make(map[string]bool)
-
 	s := strconv.Itoa(num)
-	fmt.Println(dfs(s))
+	ret := make(map[string]bool)
 
-	return 0
+	backTrace(s, "", &ret)
+	fmt.Println(ret)
+	return len(ret)
 }
 
-func dfs(s string) string {
-	if len(s) < 2 {
-		return data[s]
+func backTrace(s string, sub string, ret *map[string]bool) {
+	if len(s) == 0 {
+		(*ret)[sub] = true
+		return
 	}
 
-	var res string
-	res += data[s[:1]] + dfs(s[1:])
-	if s[:2] < "25" && s[:2] > "10" {
-		res += data[s[:2]] + dfs(s[2:])
-	} else {
+	backTrace(s[1:], sub+data[s[:1]], ret)
+	if len(s) >= 2 && s[:2] <= "25" && s[:2] >= "10" {
+		backTrace(s[2:], sub+data[s[:2]], ret)
 	}
-
-	return res
 }
 
 func main() {
-	fmt.Println(translateNum(12258))
+	//fmt.Println(translateNum(12258))
+	fmt.Println(translateNum(506))
 }
