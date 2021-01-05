@@ -3,14 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="3d19056c-34a3-44a1-8ae5-6320d127dc67" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/lcof/46.go" beforeDir="false" afterPath="$PROJECT_DIR$/lcof/46.go" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/lcof/34.go" beforeDir="false" afterPath="$PROJECT_DIR$/lcof/34.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcof/67.go" beforeDir="false" afterPath="$PROJECT_DIR$/lcof/67.go" afterDir="false" />
+>>>>>>> ef367834be3c5c77c4f434fd2627d243d91b54dd
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FavoritesManager">
     <favorites_list name="LeetCode" />
   </component>
@@ -96,6 +101,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> ef367834be3c5c77c4f434fd2627d243d91b54dd
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -103,6 +110,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ListNode2</find>
@@ -254,6 +262,19 @@
       </pane>
       <pane id="Scope" />
     </panes>
+=======
+  <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ica6rxj63TV6LVG8CuQrB4cREt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+>>>>>>> ef367834be3c5c77c4f434fd2627d243d91b54dd
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
@@ -262,11 +283,18 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -274,18 +302,6 @@
       <recent name="$PROJECT_DIR$/回溯算法" />
       <recent name="$PROJECT_DIR$/aim_offer" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="aimOffer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -304,6 +320,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -313,6 +330,7 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="200" y="27" width="1303" height="820" extended-state="0" />
     <layout>
@@ -337,13 +355,16 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
+=======
+>>>>>>> ef367834be3c5c77c4f434fd2627d243d91b54dd
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>direct</proxy>
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/重复的DNA序列.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -726,5 +747,32 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="WindowStateProjectService">
+    <state x="779" y="435" key="#GOROOT" timestamp="1602209521319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="779" y="435" key="#GOROOT/0.0.1920.1040@0.0.1920.1040" timestamp="1602209521319" />
+    <state x="847" y="379" key="EnvironmentVariablesDialog" timestamp="1607591857329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="847" y="379" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607591857329" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606114872206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606114872206" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1607592207076">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607592207076" />
+    <state x="632" y="232" width="596" height="536" key="find.popup" timestamp="1602295748122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="632" y="232" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602295748122" />
+    <state x="740" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1602244388266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602244388266" />
+>>>>>>> ef367834be3c5c77c4f434fd2627d243d91b54dd
   </component>
 </project>
