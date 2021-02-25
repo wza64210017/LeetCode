@@ -3,27 +3,31 @@ package main
 import "fmt"
 
 func maxProfit(prices []int) int {
-	min := 1 << 32
-	max := 0
+	minNum := 1 << 32
+	maxNUm := 0
 
 	for _, price := range prices {
-		min = compare(min, price, "min")
-		max = compare(max, price-min, "max")
+		minNum = min(minNum, price)
+		maxNUm = max(maxNUm, price-minNum)
 	}
 
-	return max
+	return maxNUm
 }
 
-func compare(i, j int, t string) int {
-	if i < j && t == "min" {
-		return i
-	} else if i < j && t == "max" {
-		return j
-	} else if i > j && t == "min" {
-		return j
-	} else {
-		return i
+func max(a, b int) int {
+	if a > b {
+		return a
 	}
+
+	return b
+}
+
+func min(a, b int) int {
+	if a > b {
+		return b
+	}
+
+	return a
 }
 
 func main() {
